@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, sams-serif;
+    background-color: #f5f2EC;
+    color: #1E2430;
+    padding: 20px;
+}
+
+h1{
+    color: #B8860B;
+    font-size: 2.2rem;
+}
+h2{
+    color: #1F6F63;
+    border-bottom: 2px solid #E2DDD1;
+    padding-bottom: 6px;
+    margin-top: 30px;
+}
+
+h3{
+    color: #1E2430;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li{
+    background-color: white;
+    border: 1px solid #E2DDD1;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+.project-card{
+    background-color: white;
+    border: 1px solid #E2DDD1;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 16px;
+}
+@media(max-width: 600px){
+    .container{
+        padding: 10px;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1F6F63;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #B8860B;
+}
+
+.dark-mode {
+  background-color: #191A20;
+  color: #EDEAE2;
+}
+
+.dark-mode .project-card,
+.dark-mode li {
+  background-color: #22232B;
+  border-color: #33343D;
+}
+
+.dark-mode h1 {
+  color: #E0B84B;
+}
+
+.dark-mode h2 {
+  color: #5FBFAE;
+  border-color: #33343D;
+}
+
+.dark-mode h3 {
+  color: #EDEAE2;
+}
+
+#modeBtn {
+  cursor: pointer;
+  border: 1px solid #E2DDD1;
+  background: white;
+  padding: 5px 12px;
+  border-radius: 6px;
+}
+#scrollTopBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    border-radius: 50%;
+    border: none;
+    background-color: #1F6F63;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+}
